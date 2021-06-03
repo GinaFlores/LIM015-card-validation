@@ -2,13 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="description" content="Aplicación web que pueda validar el número de una tarjeta de crédito">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <h1>BCP</h1>
+    </header>
+    <main class="container">
+      <div class="credit-card">
+        <form action="">
+          <label class="card-number" for="CardNumber">Número de tarjeta</label><br>
+          <input type="text" id="CardNumber" placeholder="Ingresa tu número de tarjeta" name="Card" required>
+          <label class="user-name" for="UserName">Nombre de usuario</label>
+          <input type="text" id="UserName" placeholder="Ingresa tu nombre">
+          <input type="submit" value="VALIDAR" class="btn" onclick="obtenerDato()">
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>By Gina Gonzales Flores con 💖</p>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+header{
+    padding: 15px;
+    background-color: #00acc1;
+}
+.container {
+    padding: 20px;
+    /*border: 5px solid red;
+    border-radius: 10px;*/
+    margin: 100px auto;
+    max-width: 500px
+}
+.card-number, .user-name {
+    color: black;
+    font-weight: bold;
+}
+input[type=text] {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.btn {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 15px;
+    margin: 8px 0;
+    position: relative;
+    left: 35%;
+    width: 33.3%;
+    border-radius: 5px;
+    color: white;
+    background-color: #00acc1;
+}
