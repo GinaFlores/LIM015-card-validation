@@ -64,7 +64,7 @@ input[type=text]:focus {
     box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4)
 }
 
-.formulario-btn-enviar {
+.formulario-btn-enviar, .boton-retornar {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,7 +98,7 @@ input[type=text]:focus {
 .mensaje {
     margin-bottom: 12px;
 }
-.boton-retornar {
+.boton-return {
     height: 45px;
     width: 35%;
     font-weight: bold;
@@ -111,7 +111,7 @@ input[type=text]:focus {
     color: white;
     background-color: #343a40;
 }
-.boton-retornar:hover {
+.boton-return:hover {
     background-color: #1d2124;
 }
 footer {

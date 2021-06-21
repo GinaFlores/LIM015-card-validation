@@ -69,14 +69,14 @@ inputButton.addEventListener("click", () => {
             document.getElementById('show-valid').style.display = 'block';
             // Ocultara el footer
             document.getElementById('footer').style.display = 'none';
-            document.getElementById('boton-retornar').style.display = 'block';
+            document.getElementById('boton-retornar-one').style.display = 'block';
         } else {
             // Se mostrara mensaje invalido
             document.getElementById('mensaje-invalido').innerText = "La tarjeta es inválida."+ " Ingrese número válido.";
             document.getElementById('show-invalid').style.display = 'block';
             // Ocultara el footer
             document.getElementById('footer').style.display = 'none';
-            document.getElementById('boton-retornar').style.display = 'block';
+            document.getElementById('boton-retornar-two').style.display = 'block';
         }
     })
 })
