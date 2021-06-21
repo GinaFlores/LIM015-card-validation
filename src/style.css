@@ -41,7 +41,7 @@ header{
     font-size: 18px
 }
 .formulario-credit-card input {
-    background-image: url(..);
+    background-image: url(./img/credit-card.svg);
     background-repeat: no-repeat;
     background-size: 18px 18px;
     background-position-y: center;
@@ -95,9 +95,24 @@ input[type=text]:focus {
     text-align: center;
     font-size: 2rem;
 }
+.mensaje {
+    margin-bottom: 12px;
+}
 .boton-retornar {
-    display: none;
-    border: red;
+    height: 45px;
+    width: 35%;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #343a40;
+}
+.boton-retornar:hover {
+    background-color: #1d2124;
 }
 footer {
     background-color: #343a40;

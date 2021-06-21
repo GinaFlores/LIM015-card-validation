@@ -1,9 +1,10 @@
 const validator = {
     isValid: function(creditCardNumber) {
         //Algoritmo de luhn
-        const convertado = creditCardNumber.split('').reverse();
-        for (let i = 0; i < convertado.length; i++) {
-            convertado[i] = parseInt (convertado [i], 10);
+        // Construye una matriz con los dígitos del número de la tarjeta
+        const convertado = creditCardNumber.split('').reverse(); // Se divide en un array y en orden inverso
+        for (let i = 0; i < convertado.length; i++) { // Se van a iterar caracter numerico por caracter
+            convertado[i] = parseInt (convertado [i], 10); // Pasa de string a number
         }
         let sum = 0;
         let esPar = convertado.length % 2 === 0;
@@ -17,6 +18,7 @@ const validator = {
             sum += convertado [i];
             esPar =! esPar;
         }
+        // Verifica el resultado
         if (sum % 10 === 0) {
             return true
             //console.log("valido");
