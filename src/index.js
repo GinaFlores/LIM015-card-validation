@@ -14,7 +14,7 @@ inputNumeros.addEventListener('keypress', (event) => { // Funcion como parametro
     //console.log(valor)
 
     if (valor || valor === 0) { // Muestra tambien el numero 0 "cero"
-        inputNumeros.value += valor // Concatena si el valor del numero es parseal
+        inputNumeros.value += valor // Concatena si el valor del numero es parcial
     }
 })
 
