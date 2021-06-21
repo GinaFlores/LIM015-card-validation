@@ -13,7 +13,7 @@ inputNumeros.addEventListener('keypress', (event) => { // Funcion como parametro
     let valor =  parseInt(valorKey) // Dara valor si es numero y no dara nada si es letra u otro caracter
     //console.log(valor)
 
-    if (valor || valor === 0) { // Muestra el numero 0 "cero"
+    if (valor || valor === 0) { // Muestra tambien el numero 0 "cero"
         inputNumeros.value += valor // Concatena si el valor del numero es parseal
     }
 })
