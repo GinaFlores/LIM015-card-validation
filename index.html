@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Aplicación web que pueda validar el número de una tarjeta de crédito">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2295%22>📦</text></svg>">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="index.html">Banco Nacional</a>
+      </h1>
+    </header>
+    <main>
+      <div id="hide-form">
+        <!--titulo de la pagina-->
+        <div class="title">
+          <h1>Valida datos de tarjetas de crédito</h1>
+        </div>
+
+        <div class="container">
+          <form action="" class="formulario" id="formulario">
+
+            <!--formulario: tarjeta de credito-->
+            <div class="formulario-grupo" id="grupo-card">
+              <label for="CardNumber" class="card-number">Número de tarjeta</label><br>
+              <div class="formulario-credit-card">
+                <input type="text" id="CardNumber" placeholder="Ej xxxx xxxx xxxx xxxx" name="Card" class="dato-card" required="">
+              </div>
+            </div>
+
+            <!--formulario: nombre de usuario-->
+            <div class="formulario-grupo" id="grupo-user-name">
+              <label for="UserName" class="user-name">Nombre</label>
+              <div class="formulario-user-name">
+                <input type="text" id="UserName" placeholder="Ingresa tu nombre" name="UserName" class="datoName" required="">
+              </div>
+            </div>
+
+            <!--Boton de validar-->
+            <div class="formulario-grupo formulario-btn-enviar">
+              <input type="button" value="VALIDAR" class="btn" id="btn">
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!--Valido e invalido-->
+      <div id="show-valid" class="show-valid">
+        <p class="mensaje" id="mensaje-valido"></p>
+        <button class="boton-return" id="boton-retornar-one">
+          <a href="index.html">Aceptar</a>
+        </button>
+      </div>
+      <div id="show-invalid" class="show-invalid">
+        <p class="mensaje" id="mensaje-invalido"></p>
+        <button class="boton-return" id="boton-retornar-two">
+          <a href="index.html">Aceptar</a>
+        </button>
+      </div>
+    </main>
+
+    <!--Pie de la pagina-->
+    <footer class="footer" id="footer">
+      <div class="footer-by">
+        <p>Designed with 💖 by Gina Gonzales Flores</p>
+      </div>
+    </footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
