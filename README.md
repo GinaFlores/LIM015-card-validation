@@ -4,10 +4,9 @@
 
 * [1. Resumen del proyecto](#1-resumen-del-proyecto)
 * [2. Investigación UX](#2-investigación-ux)
-* [3. Primer prototipo](#3-primer-prototipo)
+* [3. Prototipo](#3-prototipo)
 * [4. Feedback recibido](#4-feedback-recibido)
-* [5. Prototipo final](#5-prototipo-final)
-* [6. Plan de acción](#6-plan-de-acción)
+* [5. Plan de acción](#6-plan-de-acción)
 
 ***
 
@@ -36,7 +35,7 @@ Este proyecto es el desarrollo de una aplicación web donde el usuario debe de i
   - Mostrar mensaje si la tarjeta ingresada es válida o inválida.
   - Botón con distintas rutas.
 
-## 3. Primer Prototipo
+## 3. Prototipo
 
 ![Imagen del primer prototipo](./src/img/primer-prototipo.jpeg)
 
@@ -50,11 +49,7 @@ Este proyecto es el desarrollo de una aplicación web donde el usuario debe de i
 - Búsqueda de información sobre módulo en JavaScript.
 - Entender mi código y lo que trato de hacer en ello.
 
-## 5. Prototipo Final
-
-![Imagen del prototipo final](./src/img/prototipo-final.jpeg)
-
-## 6. Plan de Acción
+## 5. Plan de Acción
 
 * Validar que solo ingrese números y que no se pueda escribir en el input letras u otros tipos de caracteres.
 * Obtener los datos del input.
