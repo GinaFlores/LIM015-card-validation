@@ -6,7 +6,7 @@
 * [2. Investigación UX](#2-investigación-ux)
 * [3. Prototipo](#3-prototipo)
 * [4. Feedback recibido](#4-feedback-recibido)
-* [5. Plan de acción](#6-plan-de-acción)
+* [5. Plan de acción](#5-plan-de-acción)
 
 ***
 
